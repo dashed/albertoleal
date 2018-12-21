@@ -84,4 +84,4 @@ const PersonalCard = () => {
   );
 };
 
-module.exports = PersonalCard;
+export default PersonalCard;
