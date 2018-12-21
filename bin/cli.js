@@ -10,7 +10,6 @@ const importJsx = require("import-jsx");
 const { h, render } = require("ink");
 const meow = require("meow");
 const termImg = require("term-img");
-const terminalImage = require("terminal-image");
 
 // local imports
 
@@ -24,11 +23,8 @@ meow(`
 `);
 
 const pathToAvatar = path.join(__dirname, "avatar.png");
-const pathToAvatarFallback = path.join(__dirname, "avatar-fallback.png");
-
-const fallback = async () => {
-  const image = await terminalImage.file(pathToAvatarFallback);
-  console.log(image);
+const fallback = () => {
+  /* noop */
 };
 
 termImg(pathToAvatar, { fallback });

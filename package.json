@@ -23,8 +23,7 @@
     "meow": "^5.0.0",
     "opn": "^5.4.0",
     "prettier": "^1.15.3",
-    "term-img": "^4.0.0",
-    "terminal-image": "^0.1.2"
+    "term-img": "^4.0.0"
   },
   "scripts": {
     "cli": "node bin/cli.js",
