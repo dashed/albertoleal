@@ -1,5 +1,5 @@
 {
-  "name": "albertoleal",
+  "name": "alberto",
   "version": "1.0.3",
   "description": "A personal npm card for Alberto Leal (albertoleal.ca)",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "bin/*"
   ],
   "bin": {
-    "albertoleal": "bin/cli.js"
+    "alberto": "bin/cli.js"
   },
   "scripts": {
     "cli": "node bin/cli.js",
