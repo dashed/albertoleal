@@ -22,6 +22,11 @@ Other inspiration:
 
 - https://github.com/bnb/bitandbang
 
+## Chores
+
+- `yarn dev`
+- `yarn build`
+
 ## License
 
 MIT.
