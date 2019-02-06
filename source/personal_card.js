@@ -73,9 +73,9 @@ const PersonalCard = () => {
         <br />
         <br />
         <Text>
-          I am a passionate software developer, and I love to break and build
-          ████████, <br />
-          but most of the time I just concatenate strings for $.
+          I am a passionate software developer, and I build ████████; <br />
+          but most of the time I just concatenate strings, and transform ☕ into
+          ✨.
         </Text>
       </div>
       <br />
